@@ -1,0 +1,10 @@
+crear un entorno virtual
+py -m venv venv          
+activar el entorno virtual
+ .\venv\Scripts\activate  
+instalar requerimientos}
+ pip install -r requirements.txt
+generar un codigo hex 
+  openssl rand -hex 32
+correr servidor
+  python server.py
